@@ -1,77 +1,57 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
-    margin: auto;
-    
+    margin: 0px;
 }
-
-.blog-container{
-    width: 700px;
-    margin: 0 auto;
-}
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 5px;
-}
-
 .blog{
     text-align: center;
-    margin: 10px auto;
-    font-size: 22px;
-}
-
-.container{
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-evenly
-}
-.inf {
-    width: 250px;
-    height: 40px;
-    background-color: red;
-    border-radius: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 50px;
-    text-align: center ;
-    float: left; 
-}
-
-.sessao{
-    width: 250px;
-    height: 230px;
-    display: flexbox;
-    float: left;
-    margin-left: 30px;
-    margin-bottom: 50px;
-    margin-right: 30px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    word-wrap: break-word;
-    .sessao h1 {
-        font-size: 20px;
-        text-align: center;
-    }
-   
-}
-.sessao h1{
-    font-size: 20px;
-}
-.sessao p{
-    font-size: 16 px;
     
 }
-#roxo{
-    background-color: blueviolet;
-    border-radius: 5px;
+.info-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#num1{
+    width: 250px;
+    height: 20px;
     text-align: center;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 5px;
+    word-wrap: break-word;
+    background-color: red;
+
+}
+.separar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sessao{
+    height: 230px;
+    width: 250px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
+.sessao h1{
+    text-align: center;
+    font-size: 18px;
+}
+.sessao p{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+#azul{
+    background-color: blue;
+}
 #verde{
     background-color: green;
-    border-radius: 5px;
-    text-align: center;
 }

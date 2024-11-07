@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div>
+        <form>
+            <div>
+                <label for="Modelo">Modelo do carro</label>
+                <input type="text" id="Modelo" name="Modelo" placeholder="Civic" required>
+            </div>
+            <br>
+            <div>
+                <label for="Marca">Marca do carro</label>
+                <input type="text" id="Marca" name="Marca" placeholder="Honda" required> 
+            </div>
+            <br>
+            <div>
+                <label for="Ano">Ano do carro</label>
+                <input type="text" id="Ano" name="Ano" placeholder="2010" required>
+            </div>
+            <br>
+            <div>
+                <label for="Quilometragem">Quilometragem do carro</label>
+                <input type="text" id="Quilometragem" name="Quilometragem" placeholder="200 km" required>
+            </div>
+            <br>
+            <div>
+                <label for="Valor">Valor do carro</label>
+                <input type="Valor" id="Valor" name="Valor" placeholder="20 mil" required>
+            </div>
+            <br>
+            <div>
+                <label for="UsadoOuNovo">Seu carro e:</label>
+                <br>
+                <label for="Novo"> Novo</label>
+                <input type="radio" id="Novo" name="UsadoOuNovo" value="CarroNovo">
+                <label for="Usado"> Usado</label>
+                <input type="radio" id="Usado" name="UsadoOuNovo" value="CarroUsado">
+            </div>
+            <br>
+            <div>
+                <label for="Adicionais">Adicionais no carro</label>
+                <br>
+                <div>
+                    <input type="checkbox" id="Air-bag" name="Adicionais" value="Air-bag">
+                    <label for="Air-bag">Air-bag</label>
+                    <input type="checkbox" id="Alerme" name="Adicionais" value="Alarme">
+                    <label for="Alarme">Alarme</label>
+                    <input type="checkbox" id="Blindado" name="Adicionais" value="Blindado">
+                    <label for="Blindado">Blindado</label>
+                </div>
+                <br>
+                <div>
+                    <label for="FinalDaPlaca">Final da placa</label>
+                        <select id="IdPlaca" name="FinalDaPlaca">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                </div>
+                <br>
+                <div>
+                    <input type="submit">
+                </div>
+                <br>
+                <div>
+                    <input type="reset">
+                </div>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

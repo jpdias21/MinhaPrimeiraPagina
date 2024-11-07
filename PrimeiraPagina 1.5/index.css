@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+    font-size: 52.5%;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: rgb(236, 234, 234);
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+.header{
+    background-color: yellow;
+    height: 14vh;
+}
+.search{
+    text-align: center;
+    padding: 2.0rem;
+}
+.iconSearch{
+    text-align: center;
+    border: white;
+    border-radius: 0.5rem;
+    width: 40vw;
+    height: 3.5vw;
+}
+.navBar{
+    width: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navOptions{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+.ofers p , h2{
+    background-color: white;
+
+}
+.ofers{
+    text-align: left;
+    margin: auto;
+    margin-top: 2.0rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    width: 84vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ofer{
+    text-align: left;
+    float: left;
+    margin: 0.5rem;
+    width: 18vw;
+    height: 9vw;
+    padding: 1.0rem;
+    padding-top: 1.0rem;
+}
+#blackLine{
+    border-right: 1px solid black;
+}
+.ofers h2{
+    font-size: 1.8rem;
+}
+.ofers p{
+   font-size: 1.4rem;
+}
+.ofers a{
+    font-weight: bold;
+    color: inherit;
+}
+.footer{
+    text-align: center;
+    margin: auto;
+    margin-top: 3.0rem;
+}
+.footer p{
+    font-size: 1.3rem;
+}

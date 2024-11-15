@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <article class="search">
+            <input type="search" class="searchIcon">
+        </article>
+        <br>
+        <nav class="navBar">
+            <a href="../index.html" class="nav">Inicio</a>
+            <a href="./cadastro.html" class="nav">Categorias</a>
+            <a href="./ofertasDoDia.html" class="nav">Ofertas do dia</a>
+            <a href="./historico.html" class="nav">Historico</a>
+            <a href="./moda.html" class="nav">Moda</a>
+            <a href="./cadastro.html" class="nav">Cadastro</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form class="form">
+                <label class="labelInput" for="nome">Nome:</label>
+                <input class="labelInput" type="text" id="nome" name="nome" placeholder="Ex: Gabriel" required>
+                <br>
+                <label class="labelInput" for="email">Email:</label>
+                <input class="labelInput" type="email" id="email" name="email" placeholder="Ex: joao@gmail.com" required>
+                <br>
+                <label class="labelInput" for="senha">Senha:</label>
+                <input class="labelInput" type="number"  id="senha" name="senha" max="10" min="6" placeholder="12345678" required>
+                <br>
+                <label class="labelInput" for="senhaRepetir">Repetir Senha :</label>
+                <input class="labelInput" type="number" id="senhaRepetir" name="senhaRepetir" max="10" min="6" placeholder="12345678" required>
+                <br>
+                <label for="sexo">Sexo:</label>
+                <select class="labelInput">
+                    <option value="Masculino" id="sexo" >Masculino</option>
+                    <option value="Feminino" id="sexo" >Feminino</option>
+                </select>
+                <br>
+                <button type="submit">Enviar</button>
+                
+                <button type="reset">Resetar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
